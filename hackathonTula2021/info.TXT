@@ -1,0 +1,19 @@
+<div class="item-col__row item-col-row">
+<div class="item-col-row__service">
+	<img src="${data.data.productData.promoProducts[i].deliveryData[1].img}" alt="">
+</div>
+
+<div class="item-col-row__col item-col-row-col">
+	<div class="item-col-row-col__old-price">
+		<p>${data.data.productData.promoProducts[i].deliveryData[1].price * data.data.productData.promoProducts[i].promoProcent / 100 + data.data.productData.promoProducts[i].deliveryData[1].price}</p>
+	</div>
+
+	<div class="item-col-row-col__current-price">
+		<p>${data.data.productData.promoProducts[i].deliveryData[1].price} ₽</p>
+	</div>
+</div>
+
+<div class="item-col-row__cart-button cart-button">
+	<img src="./src/img/icon/plus.png" class="add-image" alt="">
+	<img src="./src/img/icon/minus.png" class="remove-image hide" alt="">
+</div>

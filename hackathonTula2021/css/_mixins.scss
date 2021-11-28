@@ -1,0 +1,14 @@
+@mixin inputColor ($textColor) {
+    &::-webkit-input-placeholder {
+        color: $textColor
+    }
+    &::-moz-placeholder {
+        color: $textColor;
+    }
+    &:-moz-placeholder {
+        color: $textColor;
+    }
+    &:-ms-input-placeholder {
+        color: $textColor;
+    }
+}

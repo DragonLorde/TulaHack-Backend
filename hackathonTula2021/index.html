@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Вся еда! Сервис подбора оптимальной цены.</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__column header-col">
+                    <div class="header-col__row header-col-row">
+                        <div class="header-col-row-left">
+                            <a href="/" class="header__logo">
+                                <img src="./src/img/logo/iconFirm.png" alt="">
+                            </a>
+
+                            <div class="header__search search">
+                                <div class="search__form">
+                                    <form action="" method="get" class="form">
+                                        <input type="text" class="form__input input">
+
+                                        <span class="line"></span>
+                                    </form>
+                                </div>
+
+                                <button onclick="search()" class="search__button href-button">
+                                    <img src="./src/img/icon/search.png" alt="">
+								</button>
+                            </div>
+                        </div>
+
+                        <div class="header-col-row-right">
+                            <a href="/" class="header__profile profile href-button">
+                                <img src="./src/img/icon/user.png" alt="">
+                            </a>
+
+                            <a href="/" class="header__basket basket href-button">
+                                <img src="./src/img/icon/cart.png" alt="">
+                            </a>
+
+                            <div class="header__menu menu href-button">
+                                <div class="menu__container">
+                                    <div class="menu__icon">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header__full-menu f-menu hide"></div>
+                </div>
+            </div>
+        </header>
+
+        <div class="invisible-header"></div>
+
+        <section class="main-page m-page">
+            <div class="m-page__banner banner">
+                <div class="banner__container">
+                    <div class="banner__img">
+                    </div>
+                </div>
+            </div>
+
+            <section class="shop">
+                <div class="shop__container">
+                    <div class="shop__item shop-item">
+                        <div class="shop__title title">
+                            <p>Акционные товары</p>
+                        </div>
+
+                        <div class="shop__line">
+                            <span></span>
+                        </div>
+
+                        <div class="shop__list list">
+                            <div class="list__container stock">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="shop__item shop-item">
+                        <div class="shop__title title">
+                            <p>Топ доставок</p>
+                        </div>
+
+                        <div class="shop__line">
+                            <span></span>
+                        </div>
+
+                        <div class="shop__list list">
+                            <div class="list__container top">
+								
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <footer class="footer"></footer>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/fetch.js"></script>
+</body>
+
+</html>

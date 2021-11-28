@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Страница товара</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__column header-col">
+                    <div class="header-col__row header-col-row">
+                        <div class="header-col-row-left">
+                            <a href="/" class="header__logo">
+                                <img src="./src/img/logo/iconFirm.png" alt="">
+                            </a>
+
+                            <div class="header__search search">
+                                <div class="search__form">
+                                    <form action="" method="get" class="form">
+                                        <input type="text" class="form__input input">
+
+                                        <span class="line"></span>
+                                    </form>
+                                </div>
+
+                                <button onclick="search()" class="search__button href-button">
+                                    <img src="./src/img/icon/search.png" alt="">
+								</button>
+                            </div>
+                        </div>
+
+                        <div class="header-col-row-right">
+                            <a href="/" class="header__profile profile href-button">
+                                <img src="./src/img/icon/user.png" alt="">
+                            </a>
+
+                            <a href="/" class="header__basket basket href-button">
+                                <img src="./src/img/icon/cart.png" alt="">
+                            </a>
+
+                            <div class="header__menu menu href-button">
+                                <div class="menu__container">
+                                    <div class="menu__icon">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header__full-menu f-menu hide"></div>
+                </div>
+            </div>
+        </header>
+
+        <div class="invisible-header"></div>
+
+        <div class="page product">
+            <div class="product__container">
+                <div class="product__row product-row">
+                    <div class="product-row__image">
+                        <img src="./src/img/product.png" alt="">
+                    </div>
+
+                    <div class="product-row__column product-row-column">
+                        <div class="product-row-column__title">
+                            <p>Вода газированная</p>
+                        </div>
+
+                        <div class="product-row-column__rating">
+                            <p class="b">Рейтинга товара: </p>
+                        </div>
+
+                        <div class="product-row-column__row product-row-column-row">
+                            <div class="product-row-column-row__price">
+                                <p>260 р</p>
+                            </div>
+
+                            <button class="product-row-column-row__button">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/fetch.js"></script>
+</body>
+
+</html>
